@@ -19,7 +19,7 @@ npm install
 ### 3. Configurer la base de données MySQL avec Docker
 
 ```bash
-docker run --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_DATABASE=user mysql --default-authentication-plugin=mysql_native_password -p 3306:3306 -d mysql:8
+docker run --name hapi-mysql -e MYSQL_ROOT_PASSWORD=hapi -e MYSQL_DATABASE=user -p 3306:3306 -d mysql:8 --default-authentication-plugin=mysql_native_password
 ```
 
 ### 4. Copier le fichier SQL et l'exécuter dans le conteneur Docker MySQL
