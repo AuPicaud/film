@@ -44,6 +44,6 @@ MAIL_PASS='bPC486MExyun8k26R4'
 npm start
 ```
 
-Le projet devrait maintenant être accessible via le navigateur ```bash [localhost](http://localhost:3000/documentation)```. Assurez-vous d'avoir respecté toutes les étapes pour éviter tout problème lors du lancement du projet.
+Le projet devrait maintenant être accessible via le navigateur ```http://localhost:3000/documentation```. Assurez-vous d'avoir respecté toutes les étapes pour éviter tout problème lors du lancement du projet.
 
 Bonne utilisation !
